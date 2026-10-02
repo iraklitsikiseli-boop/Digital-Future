@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutureTech — The Next-Gen Intelligent Innovation Platform</title>
+  <meta name="description" content="FutureTech is an innovative deep-tech ecosystem engineered with autonomous neural networks, quantum-proof cryptography, and low-latency edge computing.">
+  <meta name="keywords" content="FutureTech, AI, Quantum Computing, Neural Engine, Edge Mesh, Deep Tech">
+  
+  <!-- Google Fonts: Space Grotesk & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glows -->
+  <div class="glow-sphere glow-1" aria-hidden="true"></div>
+  <div class="glow-sphere glow-2" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar-wrapper" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="FutureTech Home">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <span class="logo-text">Future<span class="gradient-text">Tech</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta-mobile">
+          <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+        </div>
+      </nav>
+
+      <!-- Action & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-desktop-cta">Get Started</a>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Next-Gen Quantum &amp; AI Framework</span>
+          </div>
+
+          <h1 class="hero-title">
+            Architecting the <span class="gradient-text">Digital Future</span> with Intelligent Power
+          </h1>
+
+          <p class="hero-subtitle">
+            FutureTech unites autonomous neural intelligence, post-quantum resilience, and distributed edge computing to accelerate breakthrough innovation for modern enterprises.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary btn-lg">
+              <span>Get Started</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-secondary btn-lg">
+              <span>Explore Architecture</span>
+            </a>
+          </div>
+
+          <!-- Quick Trust Badges -->
+          <div class="hero-stats-row">
+            <div class="stat-mini">
+              <span class="stat-mini-num">99.99%</span>
+              <span class="stat-mini-label">Uptime SLA</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-mini">
+              <span class="stat-mini-num">&lt; 1.2ms</span>
+              <span class="stat-mini-label">Median Latency</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-mini">
+              <span class="stat-mini-num">250M+</span>
+              <span class="stat-mini-label">Neural Inferences/Day</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Display -->
+        <div class="hero-visual">
+          <div class="visual-card-glass">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">futuretech-core-v4.2 // live status</span>
+            </div>
+            <div class="terminal-body">
+              <div class="code-line"><span class="code-keyword">import</span> { NeuralCluster, QuantumShield } <span class="code-keyword">from</span> <span class="code-str">'@futuretech/core'</span>;</div>
+              <div class="code-line"><span class="code-comment">// Initializing hyper-scalable mesh node</span></div>
+              <div class="code-line"><span class="code-const">const</span> node = <span class="code-keyword">await</span> NeuralCluster.connect({</div>
+              <div class="code-line indent">cluster: <span class="code-str">'alpha-quantum-01'</span>,</div>
+              <div class="code-line indent">security: QuantumShield.LEVEL_MAX,</div>
+              <div class="code-line indent">adaptiveScaling: <span class="code-bool">true</span></div>
+              <div class="code-line">});</div>
+              <div class="code-line status-active">
+                <span class="pulse-indicator"></span>
+                <span class="status-msg">All systems operational &bull; 140 Global Nodes Connected</span>
+              </div>
+            </div>
+
+            <!-- Floating Metric Chips -->
+            <div class="floating-chip chip-top">
+              <div class="chip-icon-cyan">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="chip-content">
+                <span class="chip-label">Speed Multiplier</span>
+                <span class="chip-val">10x Acceleration</span>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-bottom">
+              <div class="chip-icon-green">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <div class="chip-content">
+                <span class="chip-label">Zero-Trust Shield</span>
+                <span class="chip-val">100% Encrypted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-tag-wrapper">
+          <span class="section-tag">About FutureTech</span>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-info">
+            <h2 class="section-title">
+              Pioneering the Next Paradigm of <span class="gradient-text">Cognitive Computing</span>
+            </h2>
+            <p class="about-text">
+              FutureTech was established with a singular mission: to democratize next-generation computing architectures for innovators across the globe. We bridge the frontier between artificial neural intelligence and ultra-secure quantum cryptography.
+            </p>
+            <p class="about-text">
+              By replacing fragmented legacy infrastructure with an unified, autonomous edge ecosystem, our platform empowers developers and high-growth enterprises to build, train, and deploy groundbreaking technologies at unprecedented speed.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item">
+                <div class="value-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="value-title">Hyper-Parallel Execution</h3>
+                  <p class="value-desc">Execute complex AI workloads with distributed pipeline acceleration.</p>
+                </div>
+              </div>
+
+              <div class="value-item">
+                <div class="value-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="value-title">Universal Global Reach</h3>
+                  <p class="value-desc">Seamless deployments across 140+ edge regions worldwide with microsecond syncing.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mission Showcase Card -->
+          <div class="about-showcase">
+            <div class="glass-card showcase-card">
+              <div class="showcase-badge">
+                <span class="pulse-indicator"></span> Live Mission Metric
+              </div>
+              <h3 class="showcase-headline">Transforming Ideas into Quantum-Ready Applications</h3>
+              <p class="showcase-sub">
+                Our infrastructure handles over 250 million daily decisions for cutting-edge fintech, autonomous robotics, and biometric systems.
+              </p>
+
+              <div class="showcase-metrics-grid">
+                <div class="metric-box">
+                  <span class="metric-number">99.99%</span>
+                  <span class="metric-label">Fault Tolerance</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-number">140+</span>
+                  <span class="metric-label">Global Edges</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-number">0-Trust</span>
+                  <span class="metric-label">Security Protocol</span>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-number">10x</span>
+                  <span class="metric-label">Inference Speed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Features Section (Strictly 3 Cards) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-tag-wrapper text-center">
+          <span class="section-tag">Core Capabilities</span>
+        </div>
+
+        <h2 class="section-title text-center">
+          Engineered for <span class="gradient-text">Absolute Superiority</span>
+        </h2>
+        <p class="section-subtitle text-center">
+          Discover the three foundational pillars powering the FutureTech ecosystem.
+        </p>
+
+        <!-- Exactly 3 Feature Cards in Grid/Flexbox -->
+        <div class="features-grid">
+          <!-- Card 1 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow"></div>
+            <div class="feature-icon-wrapper icon-gradient-1">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="14" x2="23" y2="14"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="14" x2="4" y2="14"></line>
+              </svg>
+            </div>
+            <div class="feature-tag">Neural Processing</div>
+            <h3 class="feature-title">Autonomous Neural Engine</h3>
+            <p class="feature-description">
+              Adaptive deep learning models that continuously self-optimize, processing real-time multidimensional data streams with sub-millisecond inference times.
+            </p>
+            <div class="card-footer-link">
+              <span>Learn more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow"></div>
+            <div class="feature-icon-wrapper icon-gradient-2">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="feature-tag">Cyber Defense</div>
+            <h3 class="feature-title">Post-Quantum Cryptography</h3>
+            <p class="feature-description">
+              Lattice-based encryption and zero-knowledge verification frameworks that safeguard your critical assets against present-day and future quantum computing vectors.
+            </p>
+            <div class="card-footer-link">
+              <span>Learn more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="feature-card glass-card">
+            <div class="card-glow"></div>
+            <div class="feature-icon-wrapper icon-gradient-3">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+            </div>
+            <div class="feature-tag">Edge Computing</div>
+            <h3 class="feature-title">Decentralized Mesh Matrix</h3>
+            <p class="feature-description">
+              Globally distributed low-latency nodes orchestrating dynamic state replication and automated load balancing with 99.999% fault-tolerant resilience.
+            </p>
+            <div class="card-footer-link">
+              <span>Learn more</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-tag-wrapper text-center">
+          <span class="section-tag">Let's Connect</span>
+        </div>
+
+        <h2 class="section-title text-center">
+          Start Building with <span class="gradient-text">FutureTech</span>
+        </h2>
+        <p class="section-subtitle text-center">
+          Have an inquiry, partnership opportunity, or want early platform access? Drop us a message below.
+        </p>
+
+        <div class="contact-card-wrapper glass-card">
+          <div class="contact-grid">
+            <!-- Contact Info Panel -->
+            <div class="contact-info-panel">
+              <h3 class="contact-panel-title">Get in Touch</h3>
+              <p class="contact-panel-desc">
+                Our team of solutions architects and engineers is ready to assist you in designing your next-gen deployment.
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method-item">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="method-label">Direct Email</span>
+                    <a href="mailto:contact@futuretech.io" class="method-link">contact@futuretech.io</a>
+                  </div>
+                </div>
+
+                <div class="contact-method-item">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="method-label">Global Headquarters</span>
+                    <span class="method-value">Innovation Hub, Silicon Valley, CA</span>
+                  </div>
+                </div>
+
+                <div class="contact-method-item">
+                  <div class="method-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="method-label">Operations Response</span>
+                    <span class="method-value">24/7 Global Architecture Support</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- System Status Indicator -->
+              <div class="system-status-indicator">
+                <span class="status-pulse-dot"></span>
+                <span>All API clusters normal &bull; 100% operational</span>
+              </div>
+            </div>
+
+            <!-- Contact Form with JS Validation -->
+            <div class="contact-form-panel">
+              <form class="contact-form" id="contactForm" novalidate>
+                <!-- Name Field -->
+                <div class="form-group" id="nameGroup">
+                  <label for="userName" class="form-label">Full Name <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <input 
+                      type="text" 
+                      id="userName" 
+                      name="userName" 
+                      class="form-input" 
+                      placeholder="e.g. John Doe"
+                      autocomplete="name"
+                      required
+                    >
+                  </div>
+                  <span class="error-msg" id="nameError">Please enter your name (at least 2 characters).</span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group" id="emailGroup">
+                  <label for="userEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <input 
+                      type="email" 
+                      id="userEmail" 
+                      name="userEmail" 
+                      class="form-input" 
+                      placeholder="name@company.com"
+                      autocomplete="email"
+                      required
+                    >
+                  </div>
+                  <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group" id="messageGroup">
+                  <label for="userMessage" class="form-label">Message <span class="required-star">*</span></label>
+                  <div class="input-wrapper textarea-wrapper">
+                    <textarea 
+                      id="userMessage" 
+                      name="userMessage" 
+                      rows="4" 
+                      class="form-input form-textarea" 
+                      placeholder="Tell us about your project or inquiry..."
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="message-meta">
+                    <span class="error-msg" id="messageError">Please enter a message (at least 10 characters).</span>
+                    <span class="char-counter" id="charCounter">0 / 500</span>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span class="btn-text">Send Message</span>
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  <span class="spinner" id="btnSpinner" aria-hidden="true"></span>
+                </button>
+
+                <!-- Feedback Toast / Notice -->
+                <div class="form-toast-feedback" id="formFeedback" role="alert" aria-live="polite"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="brand-logo">
+          <div class="logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <span class="logo-text">Future<span class="gradient-text">Tech</span></span>
+        </a>
+        <p class="footer-desc">
+          Empowering the vanguard of global technology builders with autonomous, quantum-grade systems.
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <h4 class="footer-heading">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4 class="footer-heading">Ecosystem</h4>
+        <div class="social-icons">
+          <a href="#" class="social-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter / X">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Discord">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6h0a14.5 14.5 0 0 0-4-1.2 9.6 9.6 0 0 0-.4 1.7 14 14 0 0 0-3.2 0A9.6 9.6 0 0 0 10 4.8 14.5 14.5 0 0 0 6 6C3.5 9.7 2.8 13.3 3.1 16.9a14.6 14.6 0 0 0 4.5 2.3 11 11 0 0 0 1-1.6 9.5 9.5 0 0 1-1.6-.8l.4-.3a10.4 10.4 0 0 0 9.2 0l.4.3a9.5 9.5 0 0 1-1.6.8 11 11 0 0 0 1 1.6 14.6 14.6 0 0 0 4.5-2.3c.4-4.2-.6-7.8-2.9-10.9z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 FutureTech Technologies Inc. All rights reserved.</p>
+      <div class="footer-meta-links">
+        <a href="#about">Privacy Policy</a>
+        <span>&bull;</span>
+        <a href="#about">Terms of Service</a>
+        <span>&bull;</span>
+        <a href="#about">Security Overview</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
